@@ -4,13 +4,13 @@
 ### 写作逻辑
 - 新手写作时刻要遵循总分逻辑去写作,这样能确保逻辑连贯,即首先介绍这一章大致内容(即每小节的内容的概括),然后再分开讲述每小节内容
 - 如果上一句的主语和当前主语不一致,则需要连接词使逻辑顺畅
-    - **表示转折：**although, however, on the contrary, in spite of, yet, despite, but, nevertheless, otherwise, unfortunately, albeit
+    - **表示转折**: although, however, on the contrary, in spite of, yet, despite, but, nevertheless, otherwise, unfortunately, albeit
 
-    - **表示并列**：and, more than that, likewise, in addition, for instance/example, also, moreover, furthermore, what is more, intuitively, a, concretely, specifically, empirically, specially, first/second/lastly
+    - **表示并列**: and, more than that, likewise, in addition, for instance/example, also, moreover, furthermore, what is more, intuitively, a, concretely, specifically, empirically, specially, first/second/lastly
 
-    - **表示因果：**as a result, because, thus, so, as, since, therefore, consequently, on account of, Ultimately
+    - **表示因果**: as a result, because, thus, so, as, since, therefore, consequently, on account of, Ultimately
 
-    - **表示归纳：**as a result, finally, therefore, thus, accordingly, in short, consequently, in conclusion, so, in a word, in brief, certainly, In a nutshell, overall
+    - **表示归纳**: as a result, finally, therefore, thus, accordingly, in short, consequently, in conclusion, so, in a word, in brief, certainly, In a nutshell, overall
 - 分点让逻辑更清晰
 
 ### 公式
