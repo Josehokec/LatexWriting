@@ -17,7 +17,7 @@
 - 在[dblp](https://dblp.org/)上去寻找获取论文BibTeX,注意:每年论文导入的Bib风格不一样,需要自己修改统一
 
 ## 写作后
-对照快速检查列表检查
+对照[快速检查列表](check_list.md)检查
 
 ## 参考文献
 http://ws2.nju.edu.cn/kgwiki/doku.php?id=team:writing
