@@ -27,7 +27,7 @@
     - **表示归纳**: as a result, finally, therefore, thus, accordingly, in short, consequently, in conclusion, so, in a word, in brief, certainly, in a nutshell, overall
 - 分点让逻辑更清晰
     - Our technique can improve XXX for three reasons. First, xxx. Second, xxx. Third, xxx.
-    - We investigate such xxx and discover three reasons. xxx
+    - We investigate such xxx and discover three reasons: (1) xxx; (2) xxx; and (3) xxx.
 - 理由要精炼得体,下列语句是摘抄自A类文章,[更多摘抄语句](sentences.txt)
     - Since xx is not open-source, we implement xx from scratch faithfully following the original design principles, as well as caching the top-level nodes on compute nodes for better performance.
     - Since then, both the hardware and workload landscapes have changed.
