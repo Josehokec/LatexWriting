@@ -14,16 +14,18 @@
 - 分点让逻辑更清晰
     - Our technique can improve XXX for two reasons. First, xxx. Second, xxx. Third, xxx.
     - We investigate such xxx and discover three reasons. xxx
-- 理由要精炼得体
-    - Since FG is not open-source, we implement FG from scratch faithfully following the original design principles, as well as caching the top-level nodes on compute nodes for better performance.
-    - Since then, both the hardware and workload landscapes have changed.![Uploading image.png…]()
+- 理由要精炼得体,下列语句是摘抄自A类文章
+    - Since xx is not open-source, we implement xx from scratch faithfully following the original design principles, as well as caching the top-level nodes on compute nodes for better performance.
+    - Since then, both the hardware and workload landscapes have changed.
+    - Moreover, unless otherwise stated, we use the following system parameters. We set the number of monitors to 60.
+    - To address the MCTM problem, we develop two optimal algorithms that have different theoretical time complexity and no one can dominate the other in all possible cases.
 
       
 ### 公式
 - 数学符号: [A short list of commonly used LATEX symbols](https://artofproblemsolving.com/wiki/index.php/LaTeX:Symbols)
 - 需编号,**结尾有标点**(下文接where用逗号,没有则用句号),不超宽,等号对齐
 
-### 图表
+### 图表(通常放在论文最顶/底端)
 - 算法. 建议使用[algorithm2e package](https://www.ctan.org/pkg/algorithm2e)
 - 图片, 见[画图项目](https://github.com/Josehokec/python_figure).
 - 表格. 初学者生成表格可以参考[Tables Generator](https://www.tablesgenerator.com)和[Latex-tables](https://www.latex-tables.com)
