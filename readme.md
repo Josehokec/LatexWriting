@@ -23,8 +23,8 @@
 - 如果上一句的主语和当前主语不一致,则需要连接词使逻辑顺畅
     - **表示转折**: although, however, on the contrary, in spite of, yet, despite, but, nevertheless, otherwise, unfortunately, albeit
     - **表示并列**: and, more than that, likewise, in addition, for instance/example, also, moreover, furthermore, what is more, intuitively, a, concretely, specifically, empirically, specially, first/second/lastly
-    - **表示因果**: as a result, because, thus, so, as, since, therefore, consequently, on account of, Ultimately
-    - **表示归纳**: as a result, finally, therefore, thus, accordingly, in short, consequently, in conclusion, so, in a word, in brief, certainly, In a nutshell, overall
+    - **表示因果**: as a result, because, thus, so, as, since, therefore, consequently, on account of, ultimately
+    - **表示归纳**: as a result, finally, therefore, thus, accordingly, in short, consequently, in conclusion, so, in a word, in brief, certainly, in a nutshell, overall
 - 分点让逻辑更清晰
     - Our technique can improve XXX for two reasons. First, xxx. Second, xxx. Third, xxx.
     - We investigate such xxx and discover three reasons. xxx
@@ -32,9 +32,9 @@
     - Since xx is not open-source, we implement xx from scratch faithfully following the original design principles, as well as caching the top-level nodes on compute nodes for better performance.
     - Since then, both the hardware and workload landscapes have changed.
 
-      
 ### 公式
 - 数学符号: [A short list of commonly used LATEX symbols](https://artofproblemsolving.com/wiki/index.php/LaTeX:Symbols)
+- 公式如果太长,可以用`\hsapce{-0.1em}`或者在两个符号中间加`\!`
 - 需编号,**结尾有标点**(下文接where用逗号,没有则用句号),不超宽,等号对齐
 
 ### 图表(通常放在论文最顶/底端)
@@ -43,10 +43,16 @@
 - 表格. 初学者生成表格可以参考[Tables Generator](https://www.tablesgenerator.com)和[Latex-tables](https://www.latex-tables.com)
 注意：图标字体统一，字号不大于正文、也不宜过小，标题、图例和坐标轴表达清楚，配色美观
 
+### 排版
+- 标题和子标题单词首字母大写(介词除外)
+- 如果首行字体加粗了,后续内容不应该出现加粗,用下划线或者斜体替代
+- 下划线推荐使用`\usepackage[normalem]{ulem}`,normalem参数能避免给参考文献加下划线
+
 ### 引用格式
-- 个人不喜欢使用"xxx等人[引用]提出yyy方法"这种描述,更喜欢"xxx特征的方法去解决yyy问题[引用]"这样的表述,有时候避免审美疲劳,两种表述方法都会使用
-- 正常来说,去掉引用不应该影响句子的完整性,此外一般我喜欢在引用前加波浪线，如`~\cite{Paper1}`
-- 在[dblp](https://dblp.org/)上去寻找获取论文BibTeX,注意:每年论文导入的Bib风格不一样,需要自己修改统一
+- 正常来说,去掉引用不应该影响句子的完整性,此外一般我喜欢在引用前加波浪线,如`~\cite{Paper1}`
+- 在[dblp](https://dblp.org/)上去寻找获取论文BibTeX,注意:每年论文导入的Bib风格不一样,需要自己修改统一,如会议是否缩写、会议地点、出版社名
+- 标题中需要强制大小写的单词用 {...} 括起来，例如 {RDF}、{DBpedia}
+- 个人不喜欢使用"xxx等人[引用]提出yyy方法"这种描述,更喜欢"xxx特征的方法去解决yyy问题[引用]"这样的表述,为避免审美疲劳,两种表述方法都可使用,但更要偏向后者
 
 ## 写作后
 对照[快速检查列表](check_list.md)检查
