@@ -14,7 +14,11 @@
 - 分点让逻辑更清晰
     - Our technique can improve XXX for two reasons. First, xxx. Second, xxx. Third, xxx.
     - We investigate such xxx and discover three reasons. xxx
+- 理由要精炼得体
+    - Since FG is not open-source, we implement FG from scratch faithfully following the original design principles, as well as caching the top-level nodes on compute nodes for better performance.
+    - Since then, both the hardware and workload landscapes have changed.![Uploading image.png…]()
 
+      
 ### 公式
 - 数学符号: [A short list of commonly used LATEX symbols](https://artofproblemsolving.com/wiki/index.php/LaTeX:Symbols)
 - 需编号,**结尾有标点**(下文接where用逗号,没有则用句号),不超宽,等号对齐
