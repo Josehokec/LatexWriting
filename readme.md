@@ -41,7 +41,39 @@
 - 算法. 建议使用[algorithm2e package](https://www.ctan.org/pkg/algorithm2e)
 - 图片, 见[画图项目](https://github.com/Josehokec/python_figure).
 - 表格. 初学者生成表格可以参考[Tables Generator](https://www.tablesgenerator.com)和[Latex-tables](https://www.latex-tables.com)
+
 注意：图标字体统一，字号不大于正文、也不宜过小，标题、图例和坐标轴表达清楚，配色美观
+
+```
+\begin{table}
+\caption{Comparison of average query latency under different evaluation engines on Crimes and Citibike datasets.}
+\addvspace{-1em}
+\label{tab:engine_latency}
+\centering
+\scalebox{0.7}{
+\begin{tblr}{
+  rowsep=0.8pt,                 % 设置行间距
+  cell{1}{1} = {r=2}{},         % 第1行第1列跨2行
+  cell{1}{2} = {c=3}{c},        % 第1行第2列跨3列
+  cell{1}{5} = {c=3}{c},        % 第1行第5列跨3列
+  vline{1, 2, 5, 8} = {1-6}{},  % 在第1-4行，第2和第6列前加垂线
+  hline{1,3,7} = {-}{},         % 在第1、3、8行画水平线。
+  hline{2} = {2-7}{},           % 水平线画到第2到7列
+}
+{\bf Approaches}    &{\bf Crimes Dataset}&& & {\bf Citibike Dataset} &     \\
+ &{\bf Our SASE}    &{\bf Esper}&{\bf Flink}& {\bf Our SASE}& {\bf Esper}  & \textbf{Flink} \\
+\textbf{DFS (Ours)} &{\bf0.68s} &{\bf1.09s} &{\bf5.56s}     &{\bf 0.97s}   & {\bf 1.35s} & {\bf2.68s}\\
+\textbf{Pushpull}   & 1.74s     & 2.22s     & 7.80s         & 1.46s & 1.81s & 4.75s\\
+\textbf{Pushdown+}  & 0.96s     & 1.72s     & 14.07s        & 2.10s   & 2.70s & 59.61s\\
+\textbf{Pushdown}   & 1.44s     & 3.20s     & 34.04s        & 2.25s   & 2.91s & 68.96s
+\end{tblr}
+}
+\end{table}
+```
+<center class ='img'>
+<img title="bar_example" src="table_example.png" width="40%">
+</center>  
+
 
 ### 排版
 - 标题和子标题单词首字母大写(介词除外)
