@@ -45,6 +45,7 @@
 注意：图标字体统一，字号不大于正文、也不宜过小，标题、图例和坐标轴表达清楚，配色美观
 
 ```
+%% \usepackage{tabularray}     % 记得导入有关包
 \begin{table}
 \caption{Comparison of average query latency under different evaluation engines on Crimes and Citibike datasets.}
 \addvspace{-1em}
