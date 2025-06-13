@@ -7,7 +7,7 @@
 
 ### 图表
 - 算法. 建议使用[algorithm2e package](https://www.ctan.org/pkg/algorithm2e)
-- 图片.
+- 图片, 见[画图项目](https://github.com/Josehokec/python_figure).
 - 表格. 初学者生成表格可以参考[Tables Generator](https://www.tablesgenerator.com)和[Latex-tables](https://www.latex-tables.com)
 注意：图标字体统一，字号不大于正文、也不宜过小，标题、图例和坐标轴表达清楚，配色美观
 
