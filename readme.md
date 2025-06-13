@@ -13,6 +13,7 @@
     - **表示归纳**: as a result, finally, therefore, thus, accordingly, in short, consequently, in conclusion, so, in a word, in brief, certainly, In a nutshell, overall
 - 分点让逻辑更清晰
     - Our technique can improve XXX for two reasons. First, xxx. Second, xxx. Third, xxx.
+    - We investigate such xxx and discover three reasons. xxx
 
 ### 公式
 - 数学符号: [A short list of commonly used LATEX symbols](https://artofproblemsolving.com/wiki/index.php/LaTeX:Symbols)
