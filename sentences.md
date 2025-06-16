@@ -9,6 +9,10 @@
 - LLMs truly have the potential to disrupt our entire field
 - In most data systems that leverage LLMs for data processing, including those proposed in recent work, LLM operations are treated as a given, i.e., as black-box invocations on monolithic user inputs and data, where, akin to other types of UDFs, the data system doesn't attempt to fully understand the underlying data, user intent, or constituent operations, and just does as they are told.
 
+### Approach
+- To address the MCTM problem, we develop two optimal algorithms that have different theoretical time complexity and no one can dominate the other in all possible cases.
+- And while technically an equality predicate has no endpoint since it isn’t a range, for notational consistency we can think of S (x ) as an endpoint of the predicate B = x.
+
 ## Theoretical analysis 
 - For the sake of convenience, we omit the proof to save the space.
 
@@ -25,4 +29,5 @@
 - Since FG is not open-source, we implement FG from scratch faithfully following the original design principles, as well as caching the top-level nodes on compute nodes for better performance.
 - Again, Figure X confirms that our technique is especially effective in XXX for XXX.
 - Figure xxx sheds some insight on XXX.
-- Our technique can improve xxx for two reasons. First, xxx. Second, xxx. Third, xxx.
+- Our technique can improve xxx for three reasons. First, xxx. Second, xxx. Third, xxx.
+- For range queries, the period index performs in par with the interval tree and the 1D-grid.
