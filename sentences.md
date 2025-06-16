@@ -5,7 +5,8 @@
 - To handle these distortions, dozens of distance measures have been proposed in the time-series literature.
 - However, implementing a transaction engine on top of a programmable switch does not come "for free" and many challenges need to be addressed.
 - There is a recent flurry of research on how to best integrate SIMD into column scans.
-- We use the term "point" and "record" interchangeably.
+- We use the terms "point" and "record" interchangeably.
+- LLMs truly have the potential to disrupt our entire field
 
 ## Theoretical analysis 
 - For the sake of convenience, we omit the proof to save the space.
