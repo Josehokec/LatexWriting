@@ -1,5 +1,17 @@
 # Latex Writing
 
+## 写作前
+
+### 常见缩写
+| 缩写   | 全称            |
+| ------ | --------------- |
+| i.e.   | in other words  |
+| e.g.   | for example     |
+| etc.   | and so on       |
+| w.r.t. | with respect to |
+
+
+
 ## 写作中
 一般来说,方法应该先写,再做实验,最后写引言摘要
 
