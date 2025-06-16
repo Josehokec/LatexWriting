@@ -14,15 +14,15 @@
 
 ### 引言写作逻辑
 - 做的是什么(大概背景)
-- 之前方法为什么不行？&& 挑战点在哪？
-- 如何解决这些挑战的？Insight和Intuition要讲明白
+- 之前方法为什么不行？&& gaps或者challenges在哪？
+- 如何创新解决？Insight和Intuition要讲明白
 - 本文贡献点：新问题、新方法、理论保障、丰富的实验
 
 ### 全文写作逻辑
 - 新手写作时刻要遵循总分逻辑去写作,这样能确保逻辑连贯,即首先介绍这一章大致内容(即每小节的内容的概括),然后再分开讲述每小节内容
 - 如果上一句的主语和当前主语不一致,则需要连接词使逻辑顺畅
     - **表示转折**: although, however, on the contrary, in spite of, yet, despite, but, nevertheless, otherwise, unfortunately, albeit
-    - **表示并列**: and, more than that, likewise, in addition, for instance/example, also, moreover, furthermore, what is more, intuitively, a, concretely, specifically, empirically, specially, first/second/lastly
+    - **表示并列/递进**: and, more than that, likewise, in addition, for instance/example, also, moreover, furthermore, what is more, intuitively, concretely, specifically, empirically, specially, lastly, remarkably, in essence, intrinsically
     - **表示因果**: as a result, because, thus, so, as, since, therefore, consequently, on account of, ultimately
     - **表示归纳**: as a result, finally, therefore, thus, accordingly, in short, consequently, in conclusion, so, in a word, in brief, certainly, in a nutshell, overall
 - 分点让逻辑更清晰
@@ -31,6 +31,9 @@
 - 理由要精炼得体,下列语句是摘抄自A类文章,[更多摘抄语句](sentences.txt)
     - Since xx is not open-source, we implement xx from scratch faithfully following the original design principles, as well as caching the top-level nodes on compute nodes for better performance.
     - Since then, both the hardware and workload landscapes have changed.
+- 描述性的量词: massed, dozens of, divers, plenty, vast, enormous, immense
+- 实验说明相关动词: evaluate, provide, report, vary, measure, reveal, observe
+- 善用强描述性的形容词/副词: prohibitively expensive
 
 ### 公式
 - 数学符号: [A short list of commonly used LATEX symbols](https://artofproblemsolving.com/wiki/index.php/LaTeX:Symbols)
