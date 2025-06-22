@@ -1,3 +1,5 @@
+[TOC]
+
 # Latex Writing
 
 ## 写作前
@@ -17,12 +19,11 @@
 
 个人认为只有非常懂文章的三个新颖贡献才能最开始写引言
 
-### 摘要写作逻辑(五段论)
-- 做的是什么？
-- 应用在哪？
-- 之前方法存在什么问题？
-- 这篇文章使用了什么技术解决这个问题？
-- 效果如何？
+### 摘要写作逻辑
+- **问题**:做的是什么？应用在哪？
+- **动机**:之前方法存在什么问题？
+- **方法**:这篇文章使用了什么技术解决这个问题？
+- **效果**:与对比方法相比性能如何？
 
 ### 引言写作逻辑
 - 做的是什么(大概背景)
@@ -46,6 +47,16 @@
 - 描述性的量词: massed, dozens of, divers, plenty, vast, enormous, immense
 - 实验说明相关动词: evaluate, provide, report, vary, measure, reveal, observe
 - 善用强描述性的形容词/副词: prohibitively expensive
+
+### 实验
+- 实验设置:软硬件环境、实验数据、对比算法、性能指标
+- Effectiveness Study:对比验证方法有效性(Micro experiments)
+- Efficiency/Scalability Study:对比验证方法计算效率
+- 外部因素:验证实验环境、对象、参数对方法的影响
+- 内部因素:验证方法各个步骤的作用
+- Case Study:常用于真应用场景下考察方法的表现
+
+注意:实验一定要全面(全方位、系统化地进行实验验证)+深刻(深入讨论、分析实验结果的成因)
 
 ### 公式
 - 数学符号: [A short list of commonly used LATEX symbols](https://artofproblemsolving.com/wiki/index.php/LaTeX:Symbols)
