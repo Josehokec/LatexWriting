@@ -10,6 +10,7 @@
 - In most data systems that leverage LLMs for data processing, including those proposed in recent work, LLM operations are treated as a given, i.e., as black-box invocations on monolithic user inputs and data, where, akin to other types of UDFs, the data system doesn't attempt to fully understand the underlying data, user intent, or constituent operations, and just does as they are told.
 - Simply showing raw execution traces or complete datasets is overwhelming and impractical, as users cannot reasonably review large amounts of data to verify correctness.
 - Unfortunately, none of these technologies were designed for the specific demands of Internet of Things use cases, which include: (1), (2), and (3).
+- While RDBMSes are unquestionably versatile, their generalization prevents them from being ideal for several recently identified use cases [9], one of which is IoT workloads.
 
 ### Approach
 - To address the MCTM problem, we develop two optimal algorithms that have different theoretical time complexity and no one can dominate the other in all possible cases.
@@ -23,10 +24,10 @@
 - We refer to the recent survey [xxx] for further details.
 
 ## Experiment
-- The diagram unfolds a clear comparison betwee ... and ...
+- The diagram unfolds a clear comparison between... and ...
 - All experiments were conducted on a machine equipped with an Intel Xeon Gold 5218R CPU @ 2.10GHz (80 cores) with 256GB Memory. All algorithms are implemented in Python with the Numba library.
 - Moreover, unless otherwise stated, we use the following system parameters. We set the number of monitors to 60.
-- We now demonstrate that, contrary to state of the art predicate evaluation methods, Column Sketches provide an efficient and robust access method regardless of data distribution, data clustering, or selectivity.
+- We now demonstrate that, contrary to state-of-the-art predicate evaluation methods, Column Sketches provide an efficient and robust access method regardless of data distribution, data clustering, or selectivity.
 - For range queries, the period index performs in par with the interval tree and the 1D-grid.
 - Since FG is not open-source, we implement FG from scratch faithfully following the original design principles, as well as caching the top-level nodes on compute nodes for better performance.
 - Again, Figure X confirms that our technique is especially effective in XXX for XXX.
