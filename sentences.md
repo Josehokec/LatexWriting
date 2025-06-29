@@ -9,6 +9,7 @@
 - LLMs truly have the potential to disrupt our entire field
 - In most data systems that leverage LLMs for data processing, including those proposed in recent work, LLM operations are treated as a given, i.e., as black-box invocations on monolithic user inputs and data, where, akin to other types of UDFs, the data system doesn't attempt to fully understand the underlying data, user intent, or constituent operations, and just does as they are told.
 - Simply showing raw execution traces or complete datasets is overwhelming and impractical, as users cannot reasonably review large amounts of data to verify correctness.
+- Unfortunately, none of these technologies were designed for the specific demands of Internet of Things use cases, which include: (1), (2), and (3).
 
 ### Approach
 - To address the MCTM problem, we develop two optimal algorithms that have different theoretical time complexity and no one can dominate the other in all possible cases.
