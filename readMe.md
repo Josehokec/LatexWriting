@@ -49,7 +49,7 @@
 
 ### 实验
 - 实验设置:软硬件环境、实验数据、对比算法、性能指标
-- Effectiveness Study:对比验证方法有效性(Micro experiments)
+- Effectiveness Study:对比验证方法有效性(Micro/Macro experiments)
 - Efficiency/Scalability Study:对比验证方法计算效率
 - 外部因素:验证实验环境、对象、参数对方法的影响
 - 内部因素:验证方法各个步骤的作用
