@@ -11,6 +11,7 @@
 - Simply showing raw execution traces or complete datasets is overwhelming and impractical, as users cannot reasonably review large amounts of data to verify correctness.
 - Unfortunately, none of these technologies were designed for the specific demands of Internet of Things use cases, which include: (1), (2), and (3).
 - While RDBMSes are unquestionably versatile, their generalization prevents them from being ideal for several recently identified use cases [9], one of which is IoT workloads.
+- Albeit promising, tracking the wireless earphones is non-trivial
 
 ### Approach
 - To address the MCTM problem, we develop two optimal algorithms that have different theoretical time complexity and no one can dominate the other in all possible cases.
