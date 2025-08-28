@@ -17,7 +17,10 @@
 ### Approach
 - To address the MCTM problem, we develop two optimal algorithms that have different theoretical time complexity and no one can dominate the other in all possible cases.
 - And while technically an equality predicate has no endpoint since it isn’t a range, for notational consistency we can think of S (x ) as an endpoint of the predicate B = x.
-
+- Also, with segmentation, failover is no longer at the granularity of the whole VD but a segment—BlockManager migrates the impacted segment to another BlockServer.
+- EBS2 uses a similar network setup as EBS1 except for two fundamental differences. First, for the frontend network, we replace the kernel TCP with our user-space TCP implementation (called Luna [46]) over a 2×25 Gbps network. Luna achieves high performance (up to 3.5× throughput improvement and 53% latency reduction) by leveraging a run-to-completion thread model and a zero-copy memory model. Second, for the backend network, we use a 2 × 25 Gbps RDMA network to meet the demanding SLAs [29]. Note that the two changes above only affect the data path.
+- The benefit is obvious since there are many fewer VDs influenced by a global event now. However, this approach, while straightforward and effective, would not alleviate regional and individual failure events.
+- 
 ## Theoretical analysis 
 - For the sake of convenience, we omit the proof to save the space.
 
