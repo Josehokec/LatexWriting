@@ -36,6 +36,7 @@ In addition, EC has a minimum size requirement (\ie, when the stripe unit is 4 K
 - **效果**:与对比方法相比性能如何? (只要是突出你针对提出的问题所做的优化的性能都能写进来)
 
 **例子(SOSP某篇文章的摘要)**
+
 `RAG (Retrieval Augmented Generation) allows LLMs (large language models) to generate better responses with external knowledge, but using more external knowledge causes higher response delay. Prior work focuses either on reducing the response delay (e.g., better scheduling of RAG queries) or on maximizing quality (e.g., tuning the RAG workflow), but they fall short in systematically balancing the tradeoff between the delay and quality of RAG responses. To balance both quality and response delay, this paper presents METIS, the first RAG system that jointly schedules queries and adapts the key RAG configurations of each query, such as the number of retrieved text chunks and synthesis methods. Using four popular RAG-QA datasets, we show that compared to the state-of-the-art RAG optimization schemes, METIS reduces the generation latency by 1.64 − 2.54× without sacrificing generation quality.`
 
 这个摘要思路：xxx技术可以用来干xxx（好处）？但是引入了xxx问题。之前工作怎么解决的，存在什么问题？因此，我们提出了xxx去做/解决xxx。达到了xxx效果。
