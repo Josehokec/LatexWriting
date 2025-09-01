@@ -20,7 +20,8 @@
 \newcommand{\etal}{\frenchspacing{}\emph{et al{.}}\xspace}
 ```
 然后正文直接使用对应的命令即可,比如
-In addition, EC has a minimum size requirement (\ie, when the stripe unit is 4 KiB, EC(4,2) requires at least 16 KiB) and thus can result in significant write amplification, especially for small I/O requests.
+
+`In addition, EC has a minimum size requirement (**\ie**, when the stripe unit is 4 KiB, EC(4,2) requires at least 16 KiB) and thus can result in significant write amplification, especially for small I/O requests.`
 
 
 ## 写作中
