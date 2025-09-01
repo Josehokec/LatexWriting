@@ -8,12 +8,9 @@
 
 ### 常见缩写
 
-| 缩写   | 全称            |
-| ------ | --------------- |
-| i.e.   | in other words  |
-| e.g.   | for example     |
-| etc.   | and so on       |
-| w.r.t. | with respect to |
+| 缩写 | i.e. | e.g. | etc. | w.r.t.|
+| - | - | - | - | - |
+| in other words | for example | and so on | with respect to |
 
 可用用`newcommand`命令去生成一个全局的变量.方法也是如此,这样以后万一需要改方法名字时,能快速更改过来.
 ```
