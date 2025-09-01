@@ -39,3 +39,4 @@
 - Figure xxx sheds some insight on XXX.
 - Our technique can improve xxx for three reasons. First, xxx. Second, xxx. Third, xxx.
 - For range queries, the period index performs in par with the interval tree and the 1D-grid.
+- Then, we adjust the value of each configuration knob in order to quantify each knob’s impact on the quality-delay tradeoffs in each of the queries.
