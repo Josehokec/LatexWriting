@@ -132,3 +132,5 @@ In addition, EC has a minimum size requirement (**\ie**, when the stripe unit is
 
 ## 参考文献
 http://ws2.nju.edu.cn/kgwiki/doku.php?id=team:writing
+
+Markdown添加图标 `&#xcode;`
