@@ -35,7 +35,7 @@ In addition, EC has a minimum size requirement (**\ie**, when the stripe unit is
 - [ ] **方法**:使用了什么技术解决这个问题(不应过细，突出要点)
 - [ ] **效果**:与对比方法相比性能如何? (只要是突出你针对提出的问题所做的优化的性能都能写进来)
 
-**📌 例子**
+**📌 例子1**
 
 以SOSP'25文章[METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation](https://dl.acm.org/doi/10.1145/3731569.3764855)举例.
 
@@ -43,15 +43,34 @@ RAG (Retrieval Augmented Generation) allows LLMs (large language models) to gene
 
 根据这个摘要的总结出的模板如下：
 
-1️⃣ xxx技术可以用来干xxx（好处）.
+1️⃣ 要研究的对象是干什么的.
 
-2️⃣ 但是引入了xxx问题.
+2️⃣ 它当前存在的问题.
 
 3️⃣ 之前工作怎么解决的，存在什么问题?
 
-4️⃣ 因此，我们提出了xxx去做/解决xxx.
+4️⃣ 本文提出了特定方案解决这些问题.
 
-5️⃣ 达到了xxx效果。
+5️⃣ 达到了xxx效果.
+
+**📌 例子2**
+
+以SIGMOD'24文章[Memento Filter: A Fast, Dynamic, and Robust Range Filter](https://dl.acm.org/doi/10.1145/3698820)举例.
+
+Range filters are probabilistic data structures that answer approximate range emptiness queries. They aid in avoiding processing empty range queries and have use cases in many application domains such as key-value stores and social web analytics. 
+However, current range filters do not support dynamically changing and growing datasets. Moreover, several of these designs also exhibit impractically high false positive rates under correlated workloads, which are common in practice. These impediments restrict the applicability of range filters across a wide range of use cases.
+We introduce Memento filter, the first range filter to simultaneously offer dynamicity, fast operations, and a robust false positive rate for any workload. Memento filter partitions the key universe and clusters its keys according to this partitioning. For each cluster, it stores a fingerprint and a list of key suffixes contiguously. The encoding of these lists makes them amenable to existing dynamic filter structures. Due to the one-to-one mapping from keys to suffixes, Memento filter supports inserts and deletes and can even expand to accommodate a growing dataset.
+We implement Memento filter on top of a Rank-and-Select Quotient filter and InfiniFilter and demonstrate that it achieves a competitive false positive rate and performance with the state of the art while also providing dynamicity. Due to its dynamicity, Memento filter is the first range filter applicable to B-Trees. We showcase this by integrating Memento filter into WiredTiger, a B-Tree-based key-value store, significantly boosting its performance for mixed workloads.
+
+它总体写作逻辑是(这个摘要非常长,也存在着许多不是很重要的话,有兴趣的可以尝试去优化这个摘要):
+
+1️⃣ 研究的对象是什么,用来干什么.
+
+2️⃣ 当前存在的问题/影响.
+
+3️⃣ 本文这么解决这个问题的,其关键的核心技术.
+
+5️⃣ 达到了xxx效果.
 
 ### 2.2 引言写作逻辑
 - [ ] 做的是什么(大概背景),一定要突出重要性
