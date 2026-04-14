@@ -70,7 +70,7 @@ We implement Memento filter on top of a Rank-and-Select Quotient filter and Infi
 
 3️⃣ 本文这么解决这个问题的,其关键的核心技术.
 
-5️⃣ 达到了xxx效果.
+4️⃣ 达到了xxx效果.
 
 ### 2.2 引言写作逻辑
 - [ ] 做的是什么(大概背景),一定要突出重要性
