@@ -46,7 +46,7 @@ In addition, EC has a minimum size requirement (**\ie**, when the stripe unit is
 - 本文贡献点：新问题、新方法、理论保障、丰富的实验(除实验应该还要有3个贡献)
 
 **例子：**
-以《When Complex Event Recognition Meets Cloud-Native Architectures》这篇文章举例。
+以[《When Complex Event Recognition Meets Cloud-Native Architectures》](https://josehokec.github.io/ICDE26.pdf)这篇文章举例。
 
 这篇文章研究的重点是云原生架构下的Complex Event Recognition (CER),重点是CER,所以**第一段先简要介绍CER是什么**.
 
