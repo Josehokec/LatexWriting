@@ -4,15 +4,17 @@
 📢不可否认,现在大模型能够极大辅助论文写作,缓解写作压力,然而,个人认为大模型不能以很好的逻辑讲好故事,而且生成的内容有些完全是胡编乱造凑字数而已,一点不精简优美.
 **论文全文一定要自己先用英文写出来,把逻辑理顺,再丢大模型检查语法+润色.** 把大模型视为一个辅助工具,不依赖大模型,反复思考打磨论文语句,如此写作思维与写作水平才能大幅提升.
 
-## 1.写作前(预备知识)
+## 1 写作前(预备知识)
 
-### 常见缩写
+**掌握必要的缩写**
 
 | 缩写 | i.e. | e.g. | etc. | w.r.t.|
 | - | - | - | - | - |
 | 全称 | in other words | for example | and so on | with respect to |
 
-可用用`newcommand`命令去生成一个全局的变量.方法也是如此,这样以后万一需要改方法名字时,能快速更改过来.
+**掌握用`newcommand`命令去生成一个全局的变量**
+
+文章的方法名字也用户这个命令创建一个,这样以后万一需要改方法名字时,能快速更改过来.
 ```
 \newcommand{\ie}{\textit{i.e.}\xspace}
 \newcommand{\eg}{\textit{e.g.}\xspace}
@@ -24,7 +26,7 @@
 In addition, EC has a minimum size requirement (**\ie**, when the stripe unit is 4 KiB, EC(4,2) requires at least 16 KiB) and thus can result in significant write amplification, especially for small I/O requests.
 
 
-## 2.写作中
+## 2 写作中
 一般来说,应该先写方法,再做实验,最后写引言摘要.个人认为只有非常懂文章的三个新颖贡献才能最开始写引言.
 
 ### 2.1 摘要写作逻辑
@@ -158,10 +160,11 @@ RAG (Retrieval Augmented Generation) allows LLMs (large language models) to gene
 - 标题中需要强制大小写的单词用 {...} 括起来，例如 {RDF}、{DBpedia}
 - 个人不喜欢使用"xxx等人[引用]提出yyy方法"这种描述,更喜欢"xxx特征的方法去解决yyy问题[引用]"这样的表述.当然,为避免审美疲劳,两种表述方法都可使用,但更要偏向后者
 
-## 3.写作后
+## 3 写作后
 对照[快速检查列表](check_list.md)检查(copy一个大佬的)
 
-## 参考文献
-http://ws2.nju.edu.cn/kgwiki/doku.php?id=team:writing
+## 4 参考文献
+[1] http://ws2.nju.edu.cn/kgwiki/doku.php?id=team:writing
 
-Markdown添加图标 `&#xcode;`
+[2] cs-paper-checklist. https://github.com/yzhao062/cs-paper-checklist
+
