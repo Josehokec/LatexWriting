@@ -1,7 +1,7 @@
 
 # Latex Writing📝
 
-📢不可否认,现在大模型能够极大辅助论文写作,缓解写作压力,然而,个人认为大模型不能以很好的逻辑讲好故事,而且生成的内容有些完全是胡编乱造凑字数而已,一点不精简优美.
+📢 不可否认,现在大模型能够极大辅助论文写作,缓解写作压力,然而,个人认为大模型不能以很好的逻辑讲好故事,而且生成的内容有些完全是胡编乱造凑字数而已,一点不精简优美.
 **论文全文一定要自己先用英文写出来,把逻辑理顺,再丢大模型检查语法+润色.** 把大模型视为一个辅助工具,不依赖大模型,反复思考打磨论文语句,如此写作思维与写作水平才能大幅提升.
 
 ## 1 写作前(预备知识)
@@ -35,7 +35,7 @@ In addition, EC has a minimum size requirement (**\ie**, when the stripe unit is
 - [ ] **方法**:使用了什么技术解决这个问题(不应过细，突出要点)
 - [ ] **效果**:与对比方法相比性能如何? (只要是突出你针对提出的问题所做的优化的性能都能写进来)
 
-**📌例子**
+**📌 例子**
 
 以SOSP'25文章[METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation](https://dl.acm.org/doi/10.1145/3731569.3764855)举例.
 
@@ -59,7 +59,7 @@ RAG (Retrieval Augmented Generation) allows LLMs (large language models) to gene
 - [ ] 如何创新解决gaps和challenges?关键的Insight和Intuition要讲明白
 - [ ] 本文贡献点：新问题、新方法、理论保障、丰富的实验(除实验应该还要有3个贡献)
 
-**📌例子**
+**📌 例子**
 以ICDE'26文章[When Complex Event Recognition Meets Cloud-Native Architectures](https://josehokec.github.io/ICDE26.pdf)举例.
 
 1️⃣ 这篇文章研究的重点是云原生架构下的Complex Event Recognition (CER),重点是CER,所以**第一段先简要介绍CER是什么**.
