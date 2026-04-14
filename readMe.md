@@ -39,7 +39,12 @@ In addition, EC has a minimum size requirement (**\ie**, when the stripe unit is
 
 RAG (Retrieval Augmented Generation) allows LLMs (large language models) to generate better responses with external knowledge, but using more external knowledge causes higher response delay. Prior work focuses either on reducing the response delay (e.g., better scheduling of RAG queries) or on maximizing quality (e.g., tuning the RAG workflow), but they fall short in systematically balancing the tradeoff between the delay and quality of RAG responses. To balance both quality and response delay, this paper presents METIS, the first RAG system that jointly schedules queries and adapts the key RAG configurations of each query, such as the number of retrieved text chunks and synthesis methods. Using four popular RAG-QA datasets, we show that compared to the state-of-the-art RAG optimization schemes, METIS reduces the generation latency by 1.64 – 2.54× without sacrificing generation quality.
 
-这个摘要思路：xxx技术可以用来干xxx（好处）.但是引入了xxx问题。之前工作怎么解决的，存在什么问题？因此，我们提出了xxx去做/解决xxx。达到了xxx效果。
+根据这个摘要的总结出的模板如下：
+1️⃣ xxx技术可以用来干xxx（好处）.
+2️⃣ 但是引入了xxx问题.
+3️⃣ 之前工作怎么解决的，存在什么问题？
+4️⃣ 因此，我们提出了xxx去做/解决xxx.
+5️⃣ 达到了xxx效果。
 
 ### 2.2 引言写作逻辑
 - [ ] 做的是什么(大概背景),一定要突出重要性
@@ -50,21 +55,21 @@ RAG (Retrieval Augmented Generation) allows LLMs (large language models) to gene
 **📌例子**
 以ICDE'26文章[When Complex Event Recognition Meets Cloud-Native Architectures](https://josehokec.github.io/ICDE26.pdf)举例.
 
-这篇文章研究的重点是云原生架构下的Complex Event Recognition (CER),重点是CER,所以**第一段先简要介绍CER是什么**.
+1️⃣ 这篇文章研究的重点是云原生架构下的Complex Event Recognition (CER),重点是CER,所以**第一段先简要介绍CER是什么**.
 
-因为我们是在第一个在云原生下做CER的,CER这个小领域的很可能不懂云原生,**第二段需要说明:(1)云原生的概念;(2)CER在云原生上跑的动机/优点**.
+2️⃣ 因为我们是在第一个在云原生下做CER的,CER这个小领域的很可能不懂云原生,**第二段需要说明:(1)云原生的概念;(2)CER在云原生上跑的动机/优点**.
 
-在一个新场景下做肯定有一些挑战性的问题,不然研究这个没一点意义.接下来**第三段就要说明云原生下的CER会有什么问题/挑战**.
+3️⃣ 在一个新场景下做肯定有一些挑战性的问题,不然研究这个没一点意义.接下来**第三段就要说明云原生下的CER会有什么问题/挑战**.
 
-如果不是特别开创性的领域,都会存在一些非常naive方法的方法尝试去解决这些问题/挑战,**第四段开始简要说明一些可以用过来的方法,同时要说他们存在的问题(如果这些方法没问题,研究这个问题也没必要了)**.
+4️⃣ 如果不是特别开创性的领域,都会存在一些非常naive方法的方法尝试去解决这些问题/挑战,**第四段开始简要说明一些可以用过来的方法,同时要说他们存在的问题(如果这些方法没问题,研究这个问题也没必要了)**.
 
-对于数据库领域的文章,**Introduction这一张基本上要把背景+动机都讲明白**(请注意:系统会议风格却更偏向单独一章说motivation).为了把motivation说清楚,举例是非常必要的.因此第五段开始举例说明.举例的好处我认为有两个:(1)让大同行迅速知道你做的是什么;(2)通过例子说明之前方法的问题;(3)自己的提出的方法想要达到的一个效果.
+5️⃣ 对于数据库领域的文章,**Introduction这一张基本上要把背景+动机都讲明白**(请注意:系统会议风格却更偏向单独一章说motivation).为了把motivation说清楚,举例是非常必要的.因此第五段开始举例说明.举例的好处我认为有两个:(1)让大同行迅速知道你做的是什么;(2)通过例子说明之前方法的问题;(3)自己的提出的方法想要达到的一个效果.
 
-因为引言这部分需要在2页纸讲完,接下来就要**介绍自己方法的关键insight**.根据这个insight去解决问题肯定不是一帆风顺的,这个过程存在一些挑战,把挑战讲明白就很重要.
+6️⃣ 因为引言这部分需要在2页纸讲完,接下来就要**介绍自己方法的关键insight**.根据这个insight去解决问题肯定不是一帆风顺的,这个过程存在一些挑战,把挑战讲明白就很重要.
 
-写到这里,**如果空间还比较多,可以继简要说明如何解决这些挑战的.如果空间不够了,直接在contribution里说明.**
+7️⃣ 写到这里,**如果空间还比较多,可以继简要说明如何解决这些挑战的.如果空间不够了,直接在contribution里说明.**
 
-一般而言,contribution至少要有三点(不包含实验).一般是提出了一个新方法,XX算法解决YY问题,提供了理论分析等.
+⭐ 一般而言,contribution至少要有三点(不包含实验).一般是提出了一个新方法,XX算法解决YY问题,提供了理论分析等.
 
 ### 2.3 全文写作逻辑
 - 新手写作时刻要遵循总分逻辑去写作,这样能确保逻辑连贯,即首先介绍这一章大致内容(即每小节的内容的概括),然后再分开讲述每小节内容
