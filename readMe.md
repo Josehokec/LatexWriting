@@ -40,10 +40,15 @@ In addition, EC has a minimum size requirement (**\ie**, when the stripe unit is
 RAG (Retrieval Augmented Generation) allows LLMs (large language models) to generate better responses with external knowledge, but using more external knowledge causes higher response delay. Prior work focuses either on reducing the response delay (e.g., better scheduling of RAG queries) or on maximizing quality (e.g., tuning the RAG workflow), but they fall short in systematically balancing the tradeoff between the delay and quality of RAG responses. To balance both quality and response delay, this paper presents METIS, the first RAG system that jointly schedules queries and adapts the key RAG configurations of each query, such as the number of retrieved text chunks and synthesis methods. Using four popular RAG-QA datasets, we show that compared to the state-of-the-art RAG optimization schemes, METIS reduces the generation latency by 1.64 – 2.54× without sacrificing generation quality.
 
 根据这个摘要的总结出的模板如下：
+
 1️⃣ xxx技术可以用来干xxx（好处）.
+
 2️⃣ 但是引入了xxx问题.
-3️⃣ 之前工作怎么解决的，存在什么问题？
+
+3️⃣ 之前工作怎么解决的，存在什么问题?
+
 4️⃣ 因此，我们提出了xxx去做/解决xxx.
+
 5️⃣ 达到了xxx效果。
 
 ### 2.2 引言写作逻辑
