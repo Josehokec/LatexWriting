@@ -1,7 +1,7 @@
 
-# Latex Writing
+# Latex Writing📝
 
-不可否认,现在大模型能够极大辅助论文写作,缓解写作压力,然而,个人认为大模型不能以很好的逻辑讲好故事,而且生成的内容有些完全是胡编乱造凑字数而已,一点不精简优美.
+📢不可否认,现在大模型能够极大辅助论文写作,缓解写作压力,然而,个人认为大模型不能以很好的逻辑讲好故事,而且生成的内容有些完全是胡编乱造凑字数而已,一点不精简优美.
 **论文全文一定要自己先用英文写出来,把逻辑理顺,再丢大模型检查语法+润色.** 把大模型视为一个辅助工具,不依赖大模型,反复思考打磨论文语句,如此写作思维与写作水平才能大幅提升.
 
 ## 1.写作前(预备知识)
@@ -39,7 +39,7 @@ In addition, EC has a minimum size requirement (**\ie**, when the stripe unit is
 
 RAG (Retrieval Augmented Generation) allows LLMs (large language models) to generate better responses with external knowledge, but using more external knowledge causes higher response delay. Prior work focuses either on reducing the response delay (e.g., better scheduling of RAG queries) or on maximizing quality (e.g., tuning the RAG workflow), but they fall short in systematically balancing the tradeoff between the delay and quality of RAG responses. To balance both quality and response delay, this paper presents METIS, the first RAG system that jointly schedules queries and adapts the key RAG configurations of each query, such as the number of retrieved text chunks and synthesis methods. Using four popular RAG-QA datasets, we show that compared to the state-of-the-art RAG optimization schemes, METIS reduces the generation latency by 1.64 – 2.54× without sacrificing generation quality.
 
-这个摘要思路：xxx技术可以用来干xxx（好处）？但是引入了xxx问题。之前工作怎么解决的，存在什么问题？因此，我们提出了xxx去做/解决xxx。达到了xxx效果。
+这个摘要思路：xxx技术可以用来干xxx（好处）.但是引入了xxx问题。之前工作怎么解决的，存在什么问题？因此，我们提出了xxx去做/解决xxx。达到了xxx效果。
 
 ### 2.2 引言写作逻辑
 - [ ] 做的是什么(大概背景),一定要突出重要性
